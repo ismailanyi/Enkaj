@@ -1,0 +1,3 @@
+IN PRODUCTION, update the .env
+
+schema/properties.schema.ts

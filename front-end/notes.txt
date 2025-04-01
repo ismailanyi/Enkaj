@@ -1,0 +1,4 @@
+https://v0.dev/chat/real-estate-next-js-template-0T1DwJSsxvF
+
+
+rsync -rv actions app assets components Layouts types root@147.93.86.74:/root/enkaj/front/

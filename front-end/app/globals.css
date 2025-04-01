@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --light-grey: #f5f6fa;
+  --color-secondary: 75 85 99;
+  --color-accent: 250 204 21;
+  } */
+
+@layer base {
+  :root {
+    --enkajTeal: #134e4a;
+    --light-grey: #f5f6fa;
+    --color-primary: 13 148 136; /* teal-600 */
+    --color-secondary: 75 85 99; /* gray-600 */
+    --color-accent: 250 204 21; /* yellow-400 */
+  }
+}
+
+body {
+  @apply antialiased text-gray-800;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+/* ::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-teal-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-teal-700;
+} */
+
+/* Side Navigation Animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.nav-slide-in {
+  animation: slideIn 0.3s ease-out;
+}

@@ -1,0 +1,22 @@
+userType:Tenant
+name:Jeff James2
+email:jeffjames.ke@gmail.com
+bio:my bio comes right here
+password:strongpassword
+
+
+
+
+name:Ruiru Villa
+location:Ruiru, Kenya
+propertyType:House
+listingType:FOR_RENT
+price:30000
+priceType:PER_MONTH
+description:This is the best one in ruiru
+media:["https://image1"]
+bedrooms:2
+bathrooms:2
+features:["stunning","magestic"]
+area:3000
+status:Vacant
