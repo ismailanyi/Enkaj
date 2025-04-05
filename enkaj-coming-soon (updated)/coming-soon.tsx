@@ -1,6 +1,6 @@
 "use client"
 
-import type React from "react"
+import type React from "React"
 
 import { useState } from "react"
 import { Input } from "@/components/ui/input"
