@@ -18,7 +18,7 @@ export const properties = mysqlTable("properties", {
   name: varchar("name", { length: 255 }).notNull(),
   slug: varchar("slug", { length: 255 }).notNull(),
 
-  area: varchar("area", { length: 100 }).notNull(), //Kitisuru, Muthainga, Runda e.t.c
+  area: varchar("area", { length: 100 }).notNull(), //Kitisuru, Muthaiga, Runda e.t.c
   location: varchar("location", { length: 255 }).notNull(), // Off Ngong Road Near bla bla bla...
 
   propertyType: mysqlEnum("property_type", [
