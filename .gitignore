@@ -1,0 +1,7 @@
+# Dependancies
+node_modules
+
+# Other common ignores
+.env
+*.log
+# etc ...
