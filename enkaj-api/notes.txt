@@ -1,7 +1,0 @@
-node dist/index.js
-
-
-running in dev  => ts-node-dev index.ts
-
-
-rsync -rv dist/ root@147.93.86.74:/root/enkaj/api/dist/
