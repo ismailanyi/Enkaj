@@ -194,7 +194,7 @@ const Waiting = ()=>{
                                 href: "https://www.tiktok.com/@enkaaj?_t=ZM-8twXXrGUNlN&_r=1",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                className: "text-white/80 hover:text-white transition-colors transform hover:scale-110 transition-all duration-300 flex items-center gap-2 text-lg font-medium",
+                                className: "text-white/80 hover:text-white transition-colors   transform hover:scale-110 transition-all duration-300   flex items-center gap-2 text-lg font-medium",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                         xmlns: "http://www.w3.org/2000/svg",
@@ -296,7 +296,7 @@ const Waiting = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex flex-col sm:flex-row justify-center gap-4 mb-12",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    className: "px-8 py-4 bg-yellow-400 text-black rounded-lg font-semibold  transform hover:scale-105 transition-all duration-300 ease-in-out shadow-lg hover:shadow-yellow-400/50 animate-[bounce_1s_ease-in-out_infinite]",
+                                    className: "px-8 py-4 bg-yellow-400 text-black rounded-lg font-semibold    transform hover:scale-105 transition-all duration-300 ease-in-out   shadow-lg hover:shadow-yellow-400/50   animate-[bounce_1s_ease-in-out_infinite]",
                                     onClick: ()=>setShowDemoForm(true),
                                     children: "Book a Demo"
                                 }, void 0, false, {
@@ -321,7 +321,7 @@ const Waiting = ()=>{
                                                 placeholder: "Enter your email",
                                                 value: email,
                                                 onChange: (e)=>setEmail(e.target.value),
-                                                className: "flex-1 px-4 py-3 rounded-lg bg-gray-50 border border-gray-300  text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-400 transform transition-all duration-300 focus:scale-105",
+                                                className: "flex-1 px-4 py-3 rounded-lg bg-gray-50 border border-gray-300    text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-400   transform transition-all duration-300 focus:scale-105",
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/app/_components/Waiting.tsx",
@@ -330,7 +330,7 @@ const Waiting = ()=>{
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 type: "submit",
-                                                className: "px-6 py-3 bg-teal-500 text-white rounded-lg font-semibold  hover:bg-teal-600 transition-all duration-300 transform hover:scale-105",
+                                                className: "px-6 py-3 bg-teal-500 text-white rounded-lg font-semibold    hover:bg-teal-600 transition-all duration-300   transform hover:scale-105",
                                                 children: "Join Waitlist"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/_components/Waiting.tsx",
@@ -510,7 +510,7 @@ const Waiting = ()=>{
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             type: "submit",
-                                            className: "w-full px-6 py-3 bg-yellow-400 text-black rounded-lg font-semibold  hover:bg-yellow-500 transition-all duration-300",
+                                            className: "w-full px-6 py-3 bg-yellow-400 text-black rounded-lg font-semibold    hover:bg-yellow-500 transition-all duration-300",
                                             children: "Schedule Demo"
                                         }, void 0, false, {
                                             fileName: "[project]/app/_components/Waiting.tsx",
@@ -561,7 +561,7 @@ const Waiting = ()=>{
         columnNumber: 5
     }, this);
 };
-_s(Waiting, "yxKhToZmwCxNNH5zPK+oSGe4yjs=");
+_s(Waiting, "eBscYqAGAf+2NwP9LnUaoO+7iNo=");
 _c = Waiting;
 const __TURBOPACK__default__export__ = Waiting;
 var _c;
