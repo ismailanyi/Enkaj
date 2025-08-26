@@ -4,3 +4,5 @@ cd packages/frontend
 npm install react react-dom tailwindcss # etc.
 
 npm install
+
+git reset --hard backup-before-merge
