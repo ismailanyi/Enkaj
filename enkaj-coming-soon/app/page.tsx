@@ -1,6 +1,7 @@
-import ComingSoon from "../coming-soon.tsx"
+"use client"
 
-export default function Page() {
+import ComingSoon from "../coming-soon"
+
+export default function SyntheticV0PageForDeployment() {
   return <ComingSoon />
 }
-
